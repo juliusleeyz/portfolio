@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----CSS---- -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ----RemixIcon---- -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- ----BoxIcons---- -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <title>Julius' Portfolio</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo">Julius Lee</a>
+
+        <div class="nav-container">
+            <ul class="navbar">
+                <li class="nav-link active-link"><a href="#profile">Home</a></li>
+                <li class="nav-link"><a href="#about">About Me</a></li>
+                <li class="nav-link"><a href="#skills">Skills</a></li>
+                <li class="nav-link"><a href="#projects">Projects</a></li>
+                <li class="nav-link"><a href="#contact">Contact Me</a></li>
+            </ul>
+
+            <div class="nav-button">
+                <i class="bx bx-moon change-theme" id="theme-button"></i>
+                <a href="#"><i class="bx bx-menu" id="menu-icon"></i></a>
+            </div>
+        </div>
+
+        <div class="underline"></div>
+    </header>
+
+    <!-- Profile Section -->
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="stuff/julius.png" class="profile-pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello! I'm</p>
+            <h1 class="title">Julius Lee</h1>
+            <p class="section__text__p2">Data Science Student</p>
+            <p class="section__text__p3">Computer Science and Software Engineering minor,<br>A student in The University of Toledo graduating Spring 2024 seeking entry level opportunities.</p>
+
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('stuff/Resume Yi Zhen Lee.pdf')">Download My Resume</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+
+            <div id="socials-container">
+                <a href="https://github.com/juliusleeyz" target="_blank"><i class="ri-github-fill social-icon"></i></a>
+                <a href="https://www.instagram.com/julius_leeyz/" target="_blank"><i class="ri-instagram-line social-icon"></i></a>
+                <a href="https://www.linkedin.com/in/yi-zhen-lee-a99315257/" target="_blank"><i class="ri-linkedin-fill social-icon"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+
+        <div class="section-container">
+            <div class="about-details-container">
+                <div class="text-container">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur maxime voluptates impedit doloremque, iure sed, nesciunt facere, vel quis deserunt autem voluptatum? Exercitationem omnis deserunt esse repudiandae, repellat voluptate quo. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolores maxime, incidunt porro a veritatis earum sint unde sequi facilis delectus corporis commodi velit quo animi tempora expedita ullam.
+                    </p>
+                </div>
+            </div>
+
+            <div class="section__pic-container">
+                <img src="stuff/julius2.png" class="about-pic">
+            </div>
+        </div>
+        <img src="stuff/arrow.jpg" class="arrow">
+    </section>
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <p class="section__text__p1">Favorite Skills</p>
+        <h1 class="title skill-text">My Skills</h1>
+
+        <div class="skill-content">
+            <div class="row">
+                <div class="row-img">
+                    <img src="stuff/skill1.png" alt="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="stuff/skill2.png" alt="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="stuff/skill3.png" alt="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="stuff/skill4.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="stuff/skill5.png" alt="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="stuff/skill6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Project Section -->
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <div>
+                        <img src="stuff/project1.jpg" class="project-img">
+                    </div>
+                    <h2 class="experience-sun-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github<i class="ri-github-line p-icon"></i></button>
+                        <button class="btn btn-color-1" onclick="location.href='https://github.com'">Live Demo<i class="ri-upload-2-line p-icon"></i></button>
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <div>
+                        <img src="stuff/project2.jpg" class="project-img">
+                    </div>
+                    <h2 class="experience-sun-title project-title">Project Two</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github<i class="ri-github-line p-icon"></i></button>
+                        <button class="btn btn-color-1" onclick="location.href='https://github.com'">Live Demo<i class="ri-upload-2-line p-icon"></i></button>
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <div>
+                        <img src="stuff/project3.jpeg" class="project-img">
+                    </div>
+                    <h2 class="experience-sun-title project-title">Project Three</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github<i class="ri-github-line p-icon"></i></button>
+                        <button class="btn btn-color-1" onclick="location.href='https://github.com'">Live Demo<i class="ri-upload-2-line p-icon"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="stuff/arrow.jpg" class="arrow">
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+
+        <form name="submit-to-google-sheet" action="index.html" method="post" class="contact-form">
+            <div class="input-wrap">
+                <input class="contact-input" autocomplete="off" name="First Name" type="text" required>
+                <label for="First Name">First Name</label>
+                <i class="fa-solid fa-address-card form-icon"></i>
+            </div>
+
+            <div class="input-wrap">
+                <input class="contact-input" autocomplete="off" name="Last Name" type="text" required>
+                <label for="Last Name">Last Name</label>
+                <i class="fa-solid fa-address-card form-icon"></i>
+            </div>
+
+            <div class="input-wrap w-100">
+                <input type="email" autocomplete="off" name="Email" class="contact-input">
+                <label for="Email">Email</label>
+                <i class="fa-solid fa-envelope form-icon"></i>
+            </div>
+
+            <div class="input-wrap textarea w-100">
+                <textarea name="Message" autocomplete="off" class="contact-input" requried></textarea>
+                <label for="Message">Message</label>
+                <i class="fa-solid fa-inbox form-icon"></i>
+            </div>
+            <button class="btn btn-color-1">Send Message</button>
+        </form>
+        <span id="msg"></span>
+    </section>
+
+    <!-- Copyright Section -->
+    <p class="copyright">&#169; Julius Lee. All rights reserved</p>
+
+    <!-- Scroll Up -->
+    <a href="#profile" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+
+    <!-- -----CDN FontAwesome Library--- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+    <!-- -----Javascript--- -->
+    <script src="script.js"></script>
+    <!-- Sending Contact Form to Google Sheets -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxYvhdlPPD3rzJy_tNZFgNmGZpWK0Nq0NUPwHkzpYCoaN6HbOPUTKpJIYsNLiYHS2V0Og/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message has been sent successfully!"
+                setTimeout(function() {
+                    msg.innerHTML = ""
+                }, 5000)
+
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
